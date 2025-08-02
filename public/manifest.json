@@ -1,0 +1,58 @@
+{
+  "name": "Offline Voice Assistant",
+  "short_name": "VoiceAI",
+  "description": "Local STT/TTS voice assistant with OpenAI integration",
+  "version": "1.0.0",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#3b82f6",
+  "orientation": "portrait",
+  "scope": "/",
+  "lang": "en-US",
+  "icons": [
+    {
+      "src": "https://images.pexels.com/photos/8566526/pexels-photo-8566526.jpeg?auto=compress&cs=tinysrgb&w=192&h=192&dpr=1",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://images.pexels.com/photos/8566526/pexels-photo-8566526.jpeg?auto=compress&cs=tinysrgb&w=512&h=512&dpr=1",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["productivity", "utilities", "education"],
+  "screenshots": [
+    {
+      "src": "https://images.pexels.com/photos/8566526/pexels-photo-8566526.jpeg?auto=compress&cs=tinysrgb&w=1280&h=720&dpr=1",
+      "sizes": "1280x720",
+      "type": "image/jpeg",
+      "form_factor": "wide"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Start Recording",
+      "short_name": "Record",
+      "description": "Start voice recording",
+      "url": "/?action=record",
+      "icons": [
+        {
+          "src": "https://images.pexels.com/photos/8566526/pexels-photo-8566526.jpeg?auto=compress&cs=tinysrgb&w=96&h=96&dpr=1",
+          "sizes": "96x96",
+          "type": "image/jpeg"
+        }
+      ]
+    }
+  ],
+  "features": [
+    "offline-support",
+    "voice-recognition",
+    "text-to-speech",
+    "ai-integration"
+  ],
+  "prefer_related_applications": false
+}
